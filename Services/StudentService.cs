@@ -22,7 +22,7 @@ public class StudentService : IStudentService
         return _studentRepository.GetById(id);
     }
 
-    public Student AddStudent(Student student)
+    public Student       AddStudent      (Student student)
     {
         // Add validation logic here if needed
         if (string.IsNullOrWhiteSpace(student.FirstName))
