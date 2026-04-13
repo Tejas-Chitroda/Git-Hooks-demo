@@ -14,7 +14,7 @@ public class StudentRepository : IStudentRepository
         {
             Id = _nextId++,
             FirstName = "Joh",
-            LastName = "Doe",
+            LastName = "senna",
             Email = "john.doe@example.com",
             DateOfBirth = new DateTime(2000, 1, 15),
             PhoneNumber = "123-456-7890",
