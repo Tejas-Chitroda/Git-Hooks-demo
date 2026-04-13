@@ -13,8 +13,8 @@ public class StudentRepository : IStudentRepository
         _students.Add(new Student
         {
             Id = _nextId++,
-            FirstName = "John",
-            LastName = "Doe",
+            FirstName = "Joh",
+            LastName = "senna",
             Email = "john.doe@example.com",
             DateOfBirth = new DateTime(2000, 1, 15),
             PhoneNumber = "123-456-7890",
