@@ -13,7 +13,7 @@ public class StudentRepository : IStudentRepository
         _students.Add(new Student
         {
             Id = _nextId++,
-            FirstName = "John",
+            FirstName = "Joh",
             LastName = "Doe",
             Email = "john.doe@example.com",
             DateOfBirth = new DateTime(2000, 1, 15),
