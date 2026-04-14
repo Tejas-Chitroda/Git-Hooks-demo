@@ -27,6 +27,7 @@ public class StudentService : IStudentService
         // Add validation logic here if needed
         if (string.IsNullOrWhiteSpace(student.FirstName))
             throw new ArgumentException("First name is required");
+            Console.WriteLine("First name is required");
 
         if (string.IsNullOrWhiteSpace(student.LastName))
             throw new ArgumentException("Last name is required");
